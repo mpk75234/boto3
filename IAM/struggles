@@ -1,0 +1,5 @@
+10/10 - always read the documentation to setup the client :)
+I was using:
+iam = boto3.resource('iam')
+The correct syntax is:
+iam = boto3.client('iam')
