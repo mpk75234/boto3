@@ -1,6 +1,9 @@
 import boto3
 iam = boto3.client('iam')
 '''
+more boto3 fun on a very junior level:
+
+https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/iam.html#IAM.Client.delete_user
 before:
 mike@mkdc752341u:~/Desktop/AWS/boto3/IAM$ python3 list_users.py
 {'Users': [{'Path': '/', 'UserName': 'BadIdeaBrad', 'UserId': 'AIDASLJ6LMJ774W
@@ -15,7 +18,7 @@ xml', 'content-length': '803', 'date': 'Sat, 10 Oct 2020 15:49:37 GMT'}, 'Retr
 yAttempts': 0}}
 BadIdeaBrad
 
-BadIdeaBrad just ain't working out....
+BadIdeaBrad just ain't working out....auf Wiedersehn Herr Brad...
 '''
 iam.delete_user(UserName='BadIdeaBrad')
 '''
