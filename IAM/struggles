@@ -8,3 +8,8 @@ iam = boto3.client('iam')
 TODO: make struggle.py to edit this file
 always remember to import boto3 :)
 ------------------------------------
+10/10
+INVALID USER NAME UPDATE:
+iam.update_user(NewUserName='Bad Idea Brad', UserName='Dashnee')
+no spaces allowed bruh....
+----------------------
