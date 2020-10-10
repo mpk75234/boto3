@@ -3,3 +3,8 @@ I was using:
 iam = boto3.resource('iam')
 The correct syntax is:
 iam = boto3.client('iam')
+------------------------------------
+10/10 -
+TODO: make struggle.py to edit this file
+always remember to import boto3 :)
+------------------------------------
