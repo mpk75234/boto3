@@ -9,8 +9,8 @@ class IAM:
     def c(self):
         self.iam.create_user(UserName=self.name)
     def r(self):
-        reetz = self.iam.list_users()
-        print(reetz)
+        users = self.iam.list_users()
+        print(users)
     def u(self,nuname):
         self.iam.update_user(NewUserName=nuname, UserName=self.name)
         self.r()
