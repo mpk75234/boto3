@@ -13,3 +13,8 @@ INVALID USER NAME UPDATE:
 iam.update_user(NewUserName='Bad Idea Brad', UserName='Dashnee')
 no spaces allowed bruh....
 ----------------------
+10/12 - didn't pass name string to IAM()
+File "/home/mike/.local/lib/python3.6/site-packages/botocore/validate.py", line 297,
+in serialize_to_request
+   raise ParamValidationError(report=report.generate_report())
+botocore.exceptions.ParamValidationError: Parameter validation failed:
