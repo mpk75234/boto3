@@ -1,0 +1,10 @@
+#struggles of using boto3 for group creation
+--------------------------------------------
+10/12 - For some reason I cannot import boto3 , where I was able to previousl for CRUD py scripts in this very directory
+mike@mkdc752341u:~/Desktop/AWS/boto3/IAM/groups$ python batch_o_groupz.py
+
+Traceback (most recent call last):
+  File "batch_o_groupz.py", line 4, in <module>
+    import boto3
+ImportError: No module named boto3
+-----------------------------------

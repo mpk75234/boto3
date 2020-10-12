@@ -20,6 +20,6 @@ class IAM:
 
 
 if __name__ == '__main__':
-    carlos = IAM('carlos')
-    carlos.c()
-    carlos.r()
+    larry = IAM('larry')
+    larry.c()
+    larry.r()
