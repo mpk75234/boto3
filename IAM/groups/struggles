@@ -10,3 +10,17 @@ ImportError: No module named boto3
 -----------------------------------
 10/12 - StopIteration message isn't printing, I will look it up....
 ------------------------------------
+10/12 - weird. The IAM management console lists a policy attached,but
+my output to list_role_policy.py doesn't:
+
+mike@mkdc752341u:~/Desktop/AWS/boto3/IAM/groups$ python3 list_role_policy.py
+{'PolicyNames': [], 'IsTruncated': False, 'ResponseMetadata': {'RequestId': '4e41e349-
+9c72-402d-b5c6-7e97f6da0c55', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid
+': '4e41e349-9c72-402d-b5c6-7e97f6da0c55', 'content-type': 'text/xml', 'content-length
+': '323', 'date': 'Mon, 12 Oct 2020 17:11:01 GMT'}, 'RetryAttempts': 0}}
+
+RESOLVED:
+name:latam_core_ec2_codedeploy arn:arn:aws:iam::161728914047:policy/latam_core_ec2_cod
+edeploy just found.
+----------------------------------
+see ;list_role_policy.py'

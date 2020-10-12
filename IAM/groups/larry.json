@@ -1,0 +1,15 @@
+{ 
+	"Version": "2020-10-12",
+ 	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"codedeploy",
+				"elasticache",
+				"ec2"
+			],
+			"Resource": "*"
+		}
+	]
+}	
+
